@@ -2,8 +2,8 @@
 
 import qs from 'query-string';
 
-const BASE_URL = process.env.COINGECKO_BASE_URL;
-const API_KEY = process.env.COINGECKO_API_KEY;
+const BASE_URL = process.env.COIN_BASE_URL;
+const API_KEY = process.env.COIN_BASE_URL;
 
 if (!BASE_URL) throw new Error('Could not get base url');
 if (!API_KEY) throw new Error('Could not get api key');
