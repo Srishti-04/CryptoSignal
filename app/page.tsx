@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const page = () => {
-  return (
-    <div>page</div>
-  )
+const CryptoSignal = () => {
+  return <div></div>
 }
+
+export default CryptoSignal
